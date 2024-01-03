@@ -1,0 +1,85 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Hack Nerd Font Mono",
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.lineNumbers": "relative",
+  "editor.wordWrap": "off",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": true,
+  "editor.autoIndent": "full",
+  "editor.bracketPairColorization.enabled": true,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "single",
+  // "workbench.editor.revealIfOpen": true,
+  "vim.leader": "<Space>",
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["leader", "p", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["leader", "p", "s"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["leader", ";"],
+      "commands": ["workbench.action.showCommands"],
+      "silent": true
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<c-]>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<c-[>"],
+      "commands": ["workbench.action.previousEditor"]
+    }
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.linkedEditing": true,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.showTabs": "none",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorTheme": "Serendipity Midnight",
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact",
+    "javascriptreact": "javascriptreact"
+  },
+  "markdown-pdf.highlightStyle": "dark.css",
+  "markdown-pdf.styles": ["/home/shez/.local/share/markdown-css/tufte.css"],
+  "markdown-pdf.headerTemplate": "<div></div>"
+}
